@@ -114,7 +114,10 @@ kubectl multi apply -f installment.yaml
 kubectl multi delete installment nginx
 
 # install KubeStellar core components
-kubectl multi install --its its1 --wds wds1`,
+kubectl multi install --its its1 --wds wds1
+
+# check plugin version 
+kubectl-multi version`,
 }
 
 // Execute adds all child commands to the root command and sets flags appropriately.
